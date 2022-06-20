@@ -31,7 +31,7 @@ const Channel = ({ type, name }) => {
           />
         </svg>
       )}
-      <button className="text-xl font-bold w-full rounded-lg hover:bg-gray-600 text-cyan-400">
+      <button className="text-xl w-full rounded-lg hover:bg-gray-600 text-cyan-400">
         {name}
       </button>
     </div>

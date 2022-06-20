@@ -9,7 +9,7 @@ const Channels = () => {
             w-48 xl:w-60  overflow-y-scroll scrollbar-hide"
       >
         <div className="flex justify-center items-center sticky top-0 h-12 bg-gray-800">
-          <h3 className="font-bold text-xl">Home</h3>
+          <h3 className="font-bold text-xl text-violet-300">Apex</h3>
         </div>
         <hr className="border-t-[2px] border-gray-900" />
         <div className="m-2">
