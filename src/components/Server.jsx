@@ -9,7 +9,7 @@ const Server = ({ icon }) => {
       >
         {icon.substring(0,1)}
       </button>
-      <p className="absolute left-24 bg-black w-auto 
+      <p className="absolute left-24 z-50 bg-black w-auto 
       text-white p-2 m-2 scale-0 group-hover:scale-100 rounded-lg">{icon}</p>
     </div>
   )

@@ -1,13 +1,14 @@
 import { useState } from "react";
-import Sidebar from './components/Sidebar'
+import Sidebar from "./components/Sidebar";
 import "./App.css";
+import Channels from "./components/Channels";
 
 function App() {
   return (
     <div className="flex overflow-hidden">
-      {/* header */}
       <Sidebar />
       <main>
+        <Channels />
         {/* channels */}
         {/* chat room */}
         {/* members */}
