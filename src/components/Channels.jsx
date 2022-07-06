@@ -5,13 +5,13 @@ const Channels = () => {
   return (
     <>
       <div
-        className="bg-gray-800 text-white h-screen 
+        className="bg-neutral-700 text-white h-screen 
             w-48 xl:w-60  overflow-y-scroll scrollbar-hide"
       >
-        <div className="flex justify-center items-center sticky top-0 h-12 bg-gray-800">
-          <h3 className="font-bold text-xl text-violet-300">Apex</h3>
+        <div className="flex justify-center items-center sticky top-0 h-12 bg-neutral-700">
+          <h3 className="font-bold text-xl text-white-300">Apex</h3>
         </div>
-        <hr className="border-t-[2px] border-gray-900" />
+        <hr className="border-t-[1.5px] border-neutral-800" />
         <div className="m-2">
           <h3 className="font-bold text-lg">Text Channels</h3>
           <div className="m-4 ml-0">

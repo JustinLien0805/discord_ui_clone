@@ -4,7 +4,7 @@ const ChatRoom = () => {
   return (
     <div className="flex-grow flex flex-col">
       {/* chat container */}
-      <div className="bg-black h-screen  overflow-y-scroll scrollbar-thumb-neutral-500 scrollbar-track-black scrollbar-thin ">
+      <div className="bg-neutral-800 h-screen  overflow-y-scroll scrollbar-thumb-neutral-500 scrollbar-track-black scrollbar-thin ">
         <div className="flex flex-col justify-start items-center ">
           <input
             type="text"
