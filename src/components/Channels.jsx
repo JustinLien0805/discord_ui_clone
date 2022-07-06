@@ -6,7 +6,7 @@ const Channels = () => {
     <>
       <div
         className="bg-neutral-700 text-white h-screen 
-            w-48 xl:w-60  overflow-y-scroll scrollbar-hide"
+            w-48 xl:w-60  overflow-y-scroll scrollbar-hide hidden sm:flex sm:flex-col"
       >
         <div className="flex justify-center items-center sticky top-0 h-12 bg-neutral-700">
           <h3 className="font-bold text-xl text-white-300">Apex</h3>
