@@ -2,7 +2,7 @@ import React from "react";
 
 const Comment = ({ name, content }) => {
   return (
-    <div className="flex space-x-4 my-4">
+    <div className="flex sm:space-x-4 my-4">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-8 w-8 text-rose-500"

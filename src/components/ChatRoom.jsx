@@ -5,7 +5,7 @@ const ChatRoom = () => {
     <div className="flex-grow flex flex-col">
       {/* chat container */}
       <div className="bg-neutral-800 h-screen  overflow-y-scroll scrollbar-thumb-neutral-500 scrollbar-track-black scrollbar-thin ">
-        <div className="bg-neutral-700 sm:h-12 h-16 sticky flex items-center top-0 outline-2 outline-neutral-900 px-6">
+        <div className="bg-neutral-700 sm:hidden h-16 sticky flex items-center top-0 outline-2 outline-neutral-900 px-6">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             className="h-10 w-10 text-white mr-auto sm:hidden"
@@ -32,7 +32,7 @@ const ChatRoom = () => {
         <div className="flex flex-col justify-start items-center ">
           <input
             type="text"
-            className="fixed bottom-5 h-10 w-1/2 rounded-lg shadow-lg text-gray-800 text-lg z-50 bg-slate-400"
+            className="fixed bottom-5 h-10 sm:w-1/2 w-2/3 rounded-lg shadow-lg text-gray-800 text-lg z-50 bg-slate-400"
           />
         </div>
         <div className="mb-20 flex flex-col-reverse justify-start mx-16 xl:mx-32 ">
